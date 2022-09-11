@@ -1,0 +1,191 @@
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.89);
+    }
+
+    .logo-text {
+        margin: 5px;
+    }
+
+    nav ul {
+        display: block;
+
+        list-style-type: none;
+        padding: 15px;
+    }
+
+    nav ul li {
+        display: inline-block;
+
+        width: 19%;
+
+        text-align: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+
+        color: white;
+
+        border-left: 2px solid white;
+
+        padding-left: 15px;
+        margin: 0 auto;
+
+        text-align: center;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .b-food-cards {
+        width: 40%;
+        height: 550px;
+
+        display: inline-block;
+
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+
+
+    .food-card {
+        height: 200px;
+        width: 80%;
+    }
+
+    .food-card img {
+        width: 25%;
+        height: 100%;
+        float: left;
+        
+        padding-left: 15px;
+    }
+
+    .food-card-desc {
+        height: 100%;
+        width: 60%;
+
+        text-align: center;
+
+        margin-top: 15px;
+
+        float: left;
+    }
+
+    .food-card-desc h4 {
+        margin-bottom: 15px;
+    }
+
+    .price {
+        height: 100%;
+        width: 15%;
+
+        float: right;
+    }
+
+    .chef-card {
+        height: 200px;
+        width: 80%;
+
+        margin-top: 50px;
+    }
+
+    .chef-card img {
+        width: 25%;
+        height: 100%;
+        float: left;
+        
+        padding-left: 15px;
+    }
+
+    .chef-card-desc {
+        height: 100%;
+        width: 60%;
+
+        text-align: center;
+
+        margin-top: 15px;
+
+        float: left;
+    }
+
+    .chef-card-desc h4 {
+        margin-bottom: 15px;
+    }
+
+    .row {
+        width: 30%;
+
+        display: inline-block;
+
+        margin: 8px;
+    }
+
+    .rows {
+        width: 30%;
+        
+        display: inline-block;
+
+        margin: 5px;
+    }
+
+    .rows:last-child {
+        width: 40%;
+
+        margin-left: 30%;
+    }
+
+    .rows:first-child {
+        margin-left: 30px;
+    }
+
+    .contact-form {
+        width: 50%;
+        float: left;
+    }
+
+    iframe {
+        width: 45%;
+        float: right;
+
+        margin: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 998px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.89);
+    }
+
+    .food-card {
+        width: 45%;
+
+        display: inline-block;
+    }
+
+    .food-menu {
+        text-align: center;
+    }
+
+    .chef-card {
+        width: 45%;
+
+        display: inline-block;
+
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    
+}
